@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  frontend:
+    image: shiba07s/email-service-app:latest
+    ports:
+      - "3000:3000"
+ 
